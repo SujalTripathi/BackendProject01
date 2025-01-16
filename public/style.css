@@ -1,0 +1,170 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: maroon;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+/* Post Card Styling */
+.post {
+    background-color: blanchedalmond;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px auto;
+    width: 60%;
+    text-align: left;
+}
+
+.user {
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+}
+
+.content {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.post a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: inline-block;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Create New Post Link */
+a[href*="posts/new"] {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+a[href*="posts/new"]:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+/* Form Styling */
+.form-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Back Link Styling */
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Post Details */
+.post-detail {
+    background-color: blanchedalmond;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-detail .user {
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+}
+
+.post-detail .content {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
